@@ -1,7 +1,7 @@
 import enum
 import unittest
 
-from lab04_solution import FoodCategory, FoodItem, FoodServing, Meal
+from lab04 import FoodCategory, FoodItem, FoodServing, Meal
 
 class TestLab4(unittest.TestCase):
     def test_food_category(self):
