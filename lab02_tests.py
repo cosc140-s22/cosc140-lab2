@@ -1,9 +1,9 @@
 import enum
 import unittest
 
-from lab04 import FoodCategory, FoodItem, FoodServing, Meal
+from lab02 import FoodCategory, FoodItem, FoodServing, Meal
 
-class TestLab4(unittest.TestCase):
+class TestLab2(unittest.TestCase):
     def test_food_category(self):
         self.assertTrue(issubclass(FoodCategory, enum.Enum))
         self.assertListEqual(dir(FoodCategory), ['DAIRY', 'FRUIT', 'GRAIN', 'OIL', 'OTHER', 'PROTEIN', 'VEGETABLE', '__class__', '__doc__', '__members__', '__module__'])
